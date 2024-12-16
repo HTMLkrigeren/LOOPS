@@ -63,6 +63,9 @@ var storT = "RøykenVGS er best"
 for (let i = 1; i <= 6; i++) { //
     document.write(`<h${i}>${storT}</h${i}>`)
 }
+for (let i = 6; i >= 0; i--) { //
+    document.write(`<h${i}>${storT}</h${i}>`)
+}
 // jeg har null peiling på hvordan jeg snur dette
 document.writeln(`<br>${"Oppgave 9"}</br>`);
 
